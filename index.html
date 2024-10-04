@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags to specify character encoding and viewport settings for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Restricted</title>
+    <!-- Link to Google Fonts to use 'Roboto' font in the page -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        /* Styling for the body element to center the content and set background color */
+        body {
+            display: flex; /* Use flexbox to center content */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #222; /* Dark background color */
+            color: #fff; /* White text color for better contrast */
+            font-family: 'Roboto', sans-serif; /* Use Roboto font */
+        }
+        /* Styling for the message container to add padding and shadow */
+        .message-container {
+            text-align: center; /* Center-align text */
+            max-width: 400px; /* Limit the maximum width of the container */
+            padding: 20px; /* Add padding around the content */
+            background-color: #333; /* Slightly lighter background for contrast */
+            border-radius: 10px; /* Rounded corners for a softer look */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+        }
+        /* Styling for the main heading */
+        .message-container h1 {
+            font-size: 24px; /* Font size for the heading */
+            margin-bottom: 20px; /* Space below the heading */
+        }
+        /* Styling for the paragraph elements */
+        .message-container p {
+            font-size: 18px; /* Font size for the paragraphs */
+            margin-bottom: 30px; /* Space below each paragraph */
+        }
+        /* Styling for the VPN suggestion text to make it more noticeable */
+        .message-container .vpn-suggestion {
+            font-weight: bold; /* Make the text bold */
+            color: #ff0000; /* Red color to draw attention */
+        }
+    </style>
+</head>
+<body>
+    <!-- Main container for the access restriction message -->
+    <div class="message-container">
+        <h1>Access Forbidden</h1> <!-- Heading to indicate access restriction -->
+        <p>Sorry, this website is not accessible from your location.</p> <!-- Explanation message -->
+        <p class="vpn-suggestion">Please connect to a VPN to continue.</p> <!-- Suggestion for connecting to a VPN -->
+    </div>
+</body>
+</html>
